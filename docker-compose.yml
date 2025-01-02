@@ -13,7 +13,7 @@ services:
       - app-network
 
   jhipster:
-    image: harshdwivedi295/awsdeploytest:postgres
+    image: harshdwivedi295/awsdeploytest:latest
     container_name: awsdeploytest
     depends_on:
       - postgres
